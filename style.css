@@ -1,7 +1,15 @@
+/* 
+blanco #e4e6e1
+azul #003bfa
+*/
+
 body {
     background-color: #e4e6e1;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    font-family: Helvetica, sans-serif;
+    padding-top: 20px;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 nav {
@@ -13,7 +21,6 @@ nav {
 ul {
     display: flex;
     align-items: center;
-    padding: 0;
 }
 
 li {
@@ -21,13 +28,29 @@ li {
     margin: 0px 10px 0px 10px;
 }
 
+h1 {
+    font-family: 'Turnpike', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.imgBanner {
+    width: 100%;
+    border-radius: 8px;
+}
+
 .aNav {
     text-decoration: none;
     color: black;
+    letter-spacing: -1px;
+    transition: 0.3s;
 }
 
 .aNav:hover {
-    color: rgb(67, 67, 67);
+    color: rgb(0, 0, 144);
+    transition: 0.3s;
 }
 
 section {
@@ -36,7 +59,7 @@ section {
 }
 
 .tarjetas {
-    background-color: aliceblue;
+    background-color: white;
     width: 300px;
     margin: 10px;
 }
@@ -46,7 +69,7 @@ section {
     padding-top: 0px;
 }
 
-.divImgTarjetas{
+.divImgTarjetas {
     overflow: hidden;
     position: relative;
     height: 300px;
@@ -58,15 +81,60 @@ section {
     transition: 0.5s ease;
 }
 
-.imgTarjetas:hover{
+.imgTarjetas:hover {
     transform: scale(0.9);
     transition: 0.5s ease;
     border-radius: 10px;
 }
 
 .btnTarjetas {
-    padding: 10px;
+    margin-top: 20px;
+    padding: 20px;
     width: 100%;
     background-color: black;
     color: white;
+}
+
+.divPresentacion {
+    display: flex;
+    margin-top: 20px;
+    background-color: #e4e6e1;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.divImgPresentacion {
+    width: 100%;
+}
+
+.divPresentacionInfo {
+    padding: 40px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.divPresentacionInfo,
+p {
+    letter-spacing: -1px;
+}
+
+.imgPresentacion {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 20px;
+    width: 90%;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    transition: 0.3s;
 }
