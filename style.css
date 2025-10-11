@@ -114,6 +114,7 @@ button:hover {
 
 .divCursos {
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .divCursosInfo {
@@ -146,4 +147,42 @@ h2 {
 
 .imgTarjetas {
     width: 100%;
+}
+
+.divPrecios {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divPreciosForm {
+    width: 40%;
+}
+
+input {
+    padding: 20px;
+    width: 91%;
+    background-color: white;
+    color: black;
+    border: none;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.imgOjos {
+    width: 100%;
+}
+
+.contenedorOjos{
+    /* position: absolute; */
+}
+
+.divPreciosImg{
+    /* position: absolute; */
+}
+
+.contenedorPrecioFijo{
+    /* position: absolute;
+    z-index: 2; */
+    background-color: blue;
 }
