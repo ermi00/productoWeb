@@ -21,11 +21,13 @@ nav {
 ul {
     display: flex;
     align-items: center;
+    padding: 10px 80px 10px 80px;
+    border-radius: 100px;
 }
 
 li {
     list-style: none;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h1 {
     font-weight: bold;
     letter-spacing: -2px;
     line-height: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .imgBanner {
@@ -49,7 +51,7 @@ h1 {
 }
 
 .aNav:hover {
-    color: rgb(0, 0, 144);
+    color: #003bfa;
     transition: 0.3s;
 }
 
@@ -62,13 +64,19 @@ section {
     display: flex;
     margin-top: 20px;
     background-color: #e4e6e1;
-    justify-content: space-between;
     border-radius: 10px;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .divImgPresentacion {
     width: 100%;
+    transition: 1s;
+}
+
+.divImgPresentacion:hover {
+    transition: 1s;
+    filter: blur(1px);
 }
 
 .divPresentacionInfo {
@@ -79,6 +87,7 @@ section {
 
 .divPresentacionInfo,
 p {
+    text-align: left;
     letter-spacing: -1px;
 }
 
@@ -89,7 +98,7 @@ p {
 
 button {
     padding: 20px;
-    width: 90%;
+    width: 100%;
     background-color: black;
     color: white;
     border: none;
@@ -103,17 +112,38 @@ button:hover {
     transition: 0.3s;
 }
 
-.divContenido {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.divCursos {
     align-items: center;
 }
 
-.divContenido{
-    border-radius: 10px;
+.divCursosInfo {
+    display: flex;
+    justify-content: space-between;
 }
 
-.imgDivContenido {
-    width: 33%;
+.tarjetas {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.divTarjetasInfo {
+    text-align: center;
+}
+
+.imgDivTarjetas {
+    width: 100%;
+}
+
+.imgTarjetas {
+    width: 100%;
 }
