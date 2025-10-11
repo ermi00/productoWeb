@@ -58,49 +58,13 @@ section {
     justify-content: center;
 }
 
-.tarjetas {
-    background-color: white;
-    width: 300px;
-    margin: 10px;
-}
-
-.divTarjetasInfo {
-    padding: 25px;
-    padding-top: 0px;
-}
-
-.divImgTarjetas {
-    overflow: hidden;
-    position: relative;
-    height: 300px;
-}
-
-.imgTarjetas {
-    object-fit: cover;
-    width: 100%;
-    transition: 0.5s ease;
-}
-
-.imgTarjetas:hover {
-    transform: scale(0.9);
-    transition: 0.5s ease;
-    border-radius: 10px;
-}
-
-.btnTarjetas {
-    margin-top: 20px;
-    padding: 20px;
-    width: 100%;
-    background-color: black;
-    color: white;
-}
-
 .divPresentacion {
     display: flex;
     margin-top: 20px;
     background-color: #e4e6e1;
     justify-content: space-between;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .divImgPresentacion {
@@ -137,4 +101,19 @@ button:hover {
     color: black;
     border: 1px solid;
     transition: 0.3s;
+}
+
+.divContenido {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divContenido{
+    border-radius: 10px;
+}
+
+.imgDivContenido {
+    width: 33%;
 }
